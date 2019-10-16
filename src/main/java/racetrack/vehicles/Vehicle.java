@@ -49,4 +49,8 @@ public abstract class Vehicle implements IDrive {
     public Driver getdriver(){
         return this.driver;
     };
+
+    public int getPerformance() {
+        return this.getSpeed() * (this.getdriver().getSkill());
+    }
 }

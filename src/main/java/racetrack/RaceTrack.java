@@ -5,18 +5,19 @@ import racetrack.vehicles.Car;
 import racetrack.vehicles.Vehicle;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class RaceTrack {
 
     String name;
     int distance;
-    ArrayList<IDrive> vehicles;
+    ArrayList<Vehicle> vehicles;
     ArrayList<Driver> drivers;
 
     public RaceTrack(String name, int distance){
         this.name = name;
         this.distance = distance;
-        this.vehicles = new ArrayList<IDrive>();
+        this.vehicles = new ArrayList<Vehicle>();
         this.drivers = new ArrayList<Driver>();
     }
 
@@ -36,7 +37,7 @@ public class RaceTrack {
         this.distance = distance;
     }
 
-    public void addVehicleToRaceTrack(IDrive vehicle){
+    public void addVehicleToRaceTrack(Vehicle vehicle){
         this.vehicles.add(vehicle);
     }
 
@@ -53,14 +54,20 @@ public class RaceTrack {
         return this.drivers.size();
     }
 
-    public void addDriversToVechiles(Vehicle vehicle, Driver driver){
+    public void addDriversToVehicles(Vehicle vehicle, Driver driver){
         vehicle.setDriver(driver);
     }
 
-    public int getPerformance(Vehicle vehicle) {
-        return vehicle.getSpeed() * (vehicle.getdriver().getSkill());
-    }
 
-    public Driver getWinner() {
+    public ArrayList getWinner() {
+        ArrayList rankings = new ArrayList();
+        for (Vehicle vehicle : this.vehicles){
+          int performance = vehicle.getPerformance();
+          rankings.add(performance);
+          Collections.sort(rankings);
+//          return rankings;
+
+        }
+        return rankings;
     }
 }

@@ -3,26 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1e79934d-6d63-4eb5-ac0d-500be3a7f2e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeClanCars.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/racetrack/IDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racetrack/IDrive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/racetrack/RaceTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racetrack/RaceTrack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/racetrack/vehicles/MonsterTruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racetrack/vehicles/MonsterTruck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Motorbike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Motorbike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MonsterTruckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MonsterTruckTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MotorbikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MotorbikeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RaceTrackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RaceTrackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/CodeClanCars.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/racetrack/RaceTrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/racetrack/RaceTrack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/racetrack/vehicles/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/racetrack/vehicles/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/racetrack/vehicles/MonsterTruck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/racetrack/vehicles/MonsterTruck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/racetrack/vehicles/Motorbike.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/racetrack/vehicles/Motorbike.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/racetrack/vehicles/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/racetrack/vehicles/Vehicle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CarTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MonsterTruckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MonsterTruckTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MotorbikeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MotorbikeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/RaceTrackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RaceTrackTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RaceTrackTest.canGetPerformance">
+  <component name="RunManager" selected="JUnit.RaceTrackTest.canGetWinner">
     <configuration name="All in CodeClanCars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanCars" />
       <option name="PACKAGE_NAME" value="" />
@@ -89,15 +74,6 @@
       <module name="CodeClanCars" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CarTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RaceTrackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanCars" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RaceTrackTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,13 +99,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RaceTrackTest.canGetWinner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanCars" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RaceTrackTest" />
+      <option name="METHOD_NAME" value="canGetWinner" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RaceTrackTest.canGetPerformance" />
+        <item itemvalue="JUnit.RaceTrackTest.canGetWinner" />
         <item itemvalue="JUnit.All in CodeClanCars" />
+        <item itemvalue="JUnit.RaceTrackTest.canGetPerformance" />
         <item itemvalue="JUnit.CarTest" />
         <item itemvalue="JUnit.RaceTrackTest.canAddDriver" />
-        <item itemvalue="JUnit.RaceTrackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,11 +152,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/CustomerTest.java</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/RaceTrackTest.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
