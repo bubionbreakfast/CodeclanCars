@@ -7,4 +7,8 @@ public class Car extends Vehicle {
         super(make, model, speed);
 
     }
+
+    public int drive() {
+        return 2;
+    }
 }

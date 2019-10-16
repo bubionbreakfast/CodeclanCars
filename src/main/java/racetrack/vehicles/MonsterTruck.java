@@ -7,4 +7,8 @@ public class MonsterTruck extends Vehicle{
     public MonsterTruck(String make, String model, int speed){
         super(make, model, speed);
     }
+
+    public int drive() {
+        return 1;
+    }
 }

@@ -6,4 +6,8 @@ public class Motorbike extends Vehicle{
         super(make, model, speed);
     }
 
+
+    public int drive() {
+        return 3;
+    }
 }

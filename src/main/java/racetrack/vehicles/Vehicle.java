@@ -1,6 +1,8 @@
 package racetrack.vehicles;
 
-public abstract class Vehicle {
+import racetrack.IDrive;
+
+public abstract class Vehicle implements IDrive {
 
     String make;
     String model;

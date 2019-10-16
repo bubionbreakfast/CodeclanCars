@@ -28,4 +28,9 @@ public class MotorbikeTest {
     public void canGetSpeed(){
         assertEquals(280, motorbike.getSpeed());
     }
+
+    @Test
+    public void canDrive(){
+        assertEquals(3, motorbike.drive());
+    }
 }

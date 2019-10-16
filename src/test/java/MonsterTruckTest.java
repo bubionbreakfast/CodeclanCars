@@ -28,4 +28,9 @@ public class MonsterTruckTest {
     public void canGetSpeed(){
         assertEquals(80, monsterTruck.getSpeed());
     }
+
+    @Test
+    public void canDrive(){
+        assertEquals(1, monsterTruck.drive());
+    }
 }

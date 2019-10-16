@@ -28,4 +28,9 @@ public class CarTest {
     public void canGetSpeed(){
         assertEquals(180, car.getSpeed());
     }
+
+    @Test
+    public void canDrive(){
+        assertEquals(2, car.drive());
+    }
 }
