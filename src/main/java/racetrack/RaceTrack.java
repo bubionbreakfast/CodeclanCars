@@ -1,6 +1,8 @@
 package racetrack;
 
 import racetrack.person.Driver;
+import racetrack.vehicles.Car;
+import racetrack.vehicles.Vehicle;
 
 import java.util.ArrayList;
 
@@ -49,5 +51,16 @@ public class RaceTrack {
 
     public int getDriverCount() {
         return this.drivers.size();
+    }
+
+    public void addDriversToVechiles(Vehicle vehicle, Driver driver){
+        vehicle.setDriver(driver);
+    }
+
+    public int getPerformance(Vehicle vehicle) {
+        return vehicle.getSpeed() * (vehicle.getdriver().getSkill());
+    }
+
+    public Driver getWinner() {
     }
 }

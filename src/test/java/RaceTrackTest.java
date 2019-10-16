@@ -18,7 +18,7 @@ public class RaceTrackTest {
     @Before
     public void before(){
         raceTrack = new RaceTrack("Monza", 150);
-        car1 = new Car("Ford", "Mondeo", 76);
+        car1 = new Car("Ford", "Mondeo", 76, driver1);
         driver1 = new Driver("Terance", 75, 63);
     }
 
@@ -43,5 +43,22 @@ public class RaceTrackTest {
         raceTrack.addDriverToRaceTrack(driver1);
         assertEquals(1, raceTrack.getDriverCount());
 
+    }
+
+    @Test
+    public void canAddDriverToVehcile(){
+        raceTrack.addDriversToVechiles(car1, driver1);
+        assertEquals(driver1, car1.getdriver());
+    }
+
+    @Test
+    public void canGetPerformance(){
+        raceTrack.addDriversToVechiles(car1, driver1);
+        assertEquals(4788, raceTrack.getPerformance(car1));
+    }
+
+    @Test
+    public void canGetWinner(){
+        assertEquals(driver1, raceTrack.getWinner());
     }
 }

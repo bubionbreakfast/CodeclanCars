@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e79934d-6d63-4eb5-ac0d-500be3a7f2e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/racetrack/IDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RaceTrackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeClanCars.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/racetrack/IDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racetrack/IDrive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/racetrack/RaceTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racetrack/RaceTrack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/racetrack/vehicles/MonsterTruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racetrack/vehicles/MonsterTruck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Motorbike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Motorbike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MonsterTruckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MonsterTruckTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MotorbikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MotorbikeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RaceTrackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RaceTrackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/CodeClanCars.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/racetrack/RaceTrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/racetrack/RaceTrack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/racetrack/vehicles/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/racetrack/vehicles/Car.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/racetrack/vehicles/MonsterTruck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/racetrack/vehicles/MonsterTruck.class" afterDir="false" />
@@ -22,9 +23,8 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/CarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CarTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/MonsterTruckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MonsterTruckTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/MotorbikeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MotorbikeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RaceTrackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RaceTrackTest.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,142 +34,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CarTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MotorbikeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/racetrack/RaceTrack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-                <element signature="e#1029#1030#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RaceTrackTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DriverTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/racetrack/person/Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-              <folding>
-                <element signature="e#254#255#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/racetrack/IDrive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MonsterTruckTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/racetrack/vehicles/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -182,125 +46,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Vehicles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Cars.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MotorbikeTestTest.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/racetrack/person/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/racetrack/person/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/racetrack/person/Driver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DriverTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CustomerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/racetrack/IDrive.java" />
-        <option value="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Motorbike.java" />
-        <option value="$PROJECT_DIR$/src/main/java/racetrack/vehicles/MonsterTruck.java" />
-        <option value="$PROJECT_DIR$/src/main/java/racetrack/vehicles/Car.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CarTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MonsterTruckTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MotorbikeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/racetrack/IRace.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RaceTrackTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/racetrack/RaceTrack.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
-    <option name="y" value="26" />
-    <option name="width" value="1280" />
-    <option name="height" value="777" />
-  </component>
+  <component name="ProjectId" id="1SHxNtelVzK6kKFfPNQmrFQKp2l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CodeClanCars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeClanCars" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeClanCars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeClanCars" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeClanCars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeClanCars" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeClanCars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeClanCars" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeClanCars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeClanCars" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="racetrack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeClanCars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeClanCars" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="racetrack" type="462c0819:PsiDirectoryNode" />
-              <item name="person" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeClanCars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeClanCars" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="racetrack" type="462c0819:PsiDirectoryNode" />
-              <item name="vehicles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeClanCars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeClanCars" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeClanCars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeClanCars" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeClanCars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -322,23 +76,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RaceTrackTest.canAddDriver">
-    <configuration name="MonsterTruckTest.canDrive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RaceTrackTest.canGetPerformance">
+    <configuration name="All in CodeClanCars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanCars" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MonsterTruckTest" />
-      <option name="METHOD_NAME" value="canDrive" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MotorbikeTest.canDrive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanCars" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MotorbikeTest" />
-      <option name="METHOD_NAME" value="canDrive" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="CarTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -362,11 +113,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceTrackTest.canAddVehicle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RaceTrackTest.canGetPerformance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanCars" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RaceTrackTest" />
-      <option name="METHOD_NAME" value="canAddVehicle" />
+      <option name="METHOD_NAME" value="canGetPerformance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -374,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RaceTrackTest.canGetPerformance" />
+        <item itemvalue="JUnit.All in CodeClanCars" />
+        <item itemvalue="JUnit.CarTest" />
         <item itemvalue="JUnit.RaceTrackTest.canAddDriver" />
         <item itemvalue="JUnit.RaceTrackTest" />
-        <item itemvalue="JUnit.RaceTrackTest.canAddVehicle" />
-        <item itemvalue="JUnit.MotorbikeTest.canDrive" />
-        <item itemvalue="JUnit.MonsterTruckTest.canDrive" />
       </list>
     </recent_temporary>
   </component>
@@ -395,97 +146,18 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="MonsterTruckTest - 2019.10.16 at 14h 08m 21s.xml">
-      <configuration name="MonsterTruckTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DriverTest - 2019.10.16 at 14h 16m 04s.xml">
-      <configuration name="DriverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest - 2019.10.16 at 14h 17m 40s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarTest_canDrive - 2019.10.16 at 14h 27m 44s.xml">
-      <configuration name="CarTest.canDrive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MonsterTruckTest_canDrive - 2019.10.16 at 14h 28m 15s.xml">
-      <configuration name="MonsterTruckTest.canDrive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MonsterTruckTest_canDrive - 2019.10.16 at 14h 28m 24s.xml">
-      <configuration name="MonsterTruckTest.canDrive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MotorbikeTest_canDrive - 2019.10.16 at 14h 29m 06s.xml">
-      <configuration name="MotorbikeTest.canDrive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MotorbikeTest_canDrive - 2019.10.16 at 14h 29m 14s.xml">
-      <configuration name="MotorbikeTest.canDrive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RaceTrackTest - 2019.10.16 at 14h 40m 04s.xml">
-      <configuration name="RaceTrackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RaceTrackTest_canAddVehicle - 2019.10.16 at 14h 43m 57s.xml">
-      <configuration name="RaceTrackTest.canAddVehicle" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="48" y="26" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.329927" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24959612" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.329927" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout-to-restore>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -493,229 +165,14 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/CustomerTest.java</url>
           <line>6</line>
-          <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/RaceTrackTest.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MotorbikeTestTest.groovy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/racetrack/person/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/racetrack/person/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/racetrack/vehicles/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-          <folding>
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/racetrack/vehicles/Motorbike.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/racetrack/vehicles/MonsterTruck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MonsterTruckTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/racetrack/vehicles/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MotorbikeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/racetrack/IDrive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/racetrack/person/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#254#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/racetrack/IRace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DriverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/racetrack/RaceTrack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RaceTrackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

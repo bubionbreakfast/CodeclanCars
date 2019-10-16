@@ -1,5 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
+import racetrack.person.Driver;
 import racetrack.vehicles.MonsterTruck;
 
 import static org.junit.Assert.assertEquals;
@@ -7,10 +8,12 @@ import static org.junit.Assert.assertEquals;
 public class MonsterTruckTest {
 
     MonsterTruck monsterTruck;
+    Driver driver1;
 
     @Before
     public void before(){
-        monsterTruck = new MonsterTruck("Ford", "F150", 80);
+        driver1 = new Driver("Bob Jane", 25, 76);
+        monsterTruck = new MonsterTruck("Ford", "F150", 80, driver1);
     }
 
 

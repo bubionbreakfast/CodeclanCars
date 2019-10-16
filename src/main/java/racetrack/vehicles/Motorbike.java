@@ -1,9 +1,11 @@
 package racetrack.vehicles;
 
+import racetrack.person.Driver;
+
 public class Motorbike extends Vehicle{
 
-    public Motorbike(String make, String model, int speed){
-        super(make, model, speed);
+    public Motorbike(String make, String model, int speed, Driver driver){
+        super(make, model, speed, driver);
     }
 
 

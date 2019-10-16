@@ -1,17 +1,21 @@
 package racetrack.vehicles;
 
 import racetrack.IDrive;
+import racetrack.person.Driver;
 
 public abstract class Vehicle implements IDrive {
 
     String make;
     String model;
     int speed;
+    Driver driver;
 
-    public Vehicle(String make, String model, int speed) {
+
+    public Vehicle(String make, String model, int speed, Driver driver) {
         this.make = make;
         this.model = model;
         this.speed = speed;
+        this.driver = driver;
     }
 
     public String getMake() {
@@ -37,4 +41,12 @@ public abstract class Vehicle implements IDrive {
     public void setSpeed(int speed) {
         this.speed = speed;
     }
+
+    public void setDriver(Driver driver){
+        this.driver = driver;
+    }
+
+    public Driver getdriver(){
+        return this.driver;
+    };
 }
